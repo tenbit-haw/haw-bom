@@ -27,6 +27,7 @@
 
         <!-- tenbit dependencies -->
         <haw-core.version>1.0.0-SNAPSHOT</haw-core.version>
+        <haw-core-extends.version>1.0.0-SNAPSHOT</haw-core-extends.version>
 
         <!--  dependencies -->
         <spring.version>4.3.24.RELEASE</spring.version>
@@ -112,28 +113,18 @@
         <dependencies>
 
             <dependency>
-                <groupId>cn.tenbit.basic</groupId>
-                <artifactId>tenbit-core</artifactId>
-                <version>${tenbit-core.version}</version>
+                <groupId>cn.tenbit.haw</groupId>
+                <artifactId>haw-core</artifactId>
+                <version>${haw-core.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>cn.tenbit.basic</groupId>
-                <artifactId>tenbit-lite</artifactId>
-                <version>${tenbit-lite.version}</version>
+                <groupId>cn.tenbit.haw</groupId>
+                <artifactId>haw-core-extends</artifactId>
+                <version>${haw-core-extends.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>cn.tenbit.extra</groupId>
-                <artifactId>tenbit-soa-core</artifactId>
-                <version>${tenbit-soa-core.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>cn.tenbit.extra</groupId>
-                <artifactId>tenbit-web-core</artifactId>
-                <version>${tenbit-web-core.version}</version>
-            </dependency>
+            <!-- ############################################################################## -->
 
             <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
             <dependency>
