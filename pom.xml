@@ -83,7 +83,7 @@
         <commons-csv.version>1.7</commons-csv.version>
         <commons-exec.version>1.3</commons-exec.version>
         <commons-proxy.version>1.0</commons-proxy.version>
-        <commons-net.version>3.6</commons-net.version>
+        <commons-net.version>3.9.0</commons-net.version>
         <commons-cli.version>1.4</commons-cli.version>
         <commons-crypto.version>1.0.0</commons-crypto.version>
         <commons-dbutils.version>1.7</commons-dbutils.version>
